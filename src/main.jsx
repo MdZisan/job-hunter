@@ -6,6 +6,7 @@ import Header from "./Components/Header/Header";
 import Home from "./Components/HomePageComponents/Home";
 import Statistics from "./Components/Statistics/Statistics";
 import MainLayout from "./Components/MainLayout/MainLayout";
+import DetailsAboutJobs from "./Components/HomePageComponents/FeaturedJobs/DetailsAboutJobs";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,11 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
       },
+      {
+        path:"job/:jobId",
+        element: <DetailsAboutJobs></DetailsAboutJobs>
+      }
+      ,
       {
         path: "statistics",
         element: <Statistics></Statistics>,

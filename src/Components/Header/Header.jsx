@@ -33,7 +33,7 @@ const Header = () => {
     <a className="btn btn-bg-color border-0">Star Applying</a>
   </div>
 </div> 
-
+{}
         </div>
     );
 };
