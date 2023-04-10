@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import TitleHeader from "../../Header/TitleHeader";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCalendarAlt, faDollarSign, faEnvelope, faLocationDot, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 
 const DetailsAboutJobs = () => {
   const { jobId } = useParams();
@@ -21,44 +23,35 @@ const DetailsAboutJobs = () => {
       });
   }, [id]);
 
-//   console.log(singlejob);
+ const handleAddJob= id =>{
+    console.log(id);
+ }
 
   return (<>
         <TitleHeader>Job Details</TitleHeader>
-    <div className="grid grid-cols-1 md:grid-cols-4 p-2 md:p-6 ">
-      {/* {
+    <div className="grid grid-cols-1 md:grid-cols-4 p-2 md:p-6 md:gap-3">
+      {
             singlejob && 
             <>
-            <h1>{singlejob.job_title}</h1>
-            </>
-           } */}
-      <div className="col-span-3">
+           <div className="col-span-3">
         <h2>
-          <span className="font-bold text-lg">Job Description:</span> A UI/UX (User Interface/User Experience)
-          designer is responsible for designing and creating engaging and
-          effective interfaces for software and web applications. This includes
-          designing the layout, visual design, and interactivity of the user
-          interface.{" "}
+          <span className="font-bold text-lg">Job Description:</span> {singlejob.job_description
+}
         </h2>
         <br />
 
         <h2>
-          <span className="font-bold text-lg">Job Responsibility:</span> Collaborating with cross-functional
-          teams: UI/UX designers often work closely with other teams, including
-          product management, engineering, and marketing, to ensure that the
-          user interface is aligned with business and technical requirements.
-          You will need to be able to effectively communicate your design ideas
-          and gather feedback from other team members.
+          <span className="font-bold text-lg">Job Responsibility:</span> {singlejob.job_responsibility}
         </h2>
         <br />
         <h2>
           <span className="font-bold text-lg">Educational Requirements:</span> <br />
-          Bachelor degree to complete any reputational university.
+         {singlejob.education_requirements}
         </h2>
         <br />
         <h2>
           <span className="font-bold text-lg">Experiences::</span> <br />
-          2-3 Years in this field.
+        {singlejob.experiences}
         </h2>
       </div>
 
@@ -68,22 +61,24 @@ const DetailsAboutJobs = () => {
            <h2 className="font-bold
            ">Job Details</h2>
            <hr  className=" border border-slate-700" />
-           <div> <h2> <span className="font-semibold">Salary :</span> 100K - 150K </h2> </div>
-           <div> <h2><span className="font-semibold">Job Title : </span> Product Designer</h2> </div>
+           <div> <h2> <span className="text-indigo-400 "><FontAwesomeIcon icon={faDollarSign}></FontAwesomeIcon></span>     <span className="font-semibold">Salary :</span> {singlejob.salary} (Per month) </h2> </div>
+           <div> <h2> <span className="text-indigo-400 "> <FontAwesomeIcon icon={faCalendarAlt}></FontAwesomeIcon></span> <span className="font-semibold">Job Title : </span> {singlejob.job_title}</h2> </div>
 
-           <h2>Contact Information</h2>
+           <h2 className="font-semibold">Contact Information</h2>
            <hr className=" border border-slate-700" />
-           <div> <h2> <span className="font-semibold">Phone :</span> 01750-00 00 00</h2> </div>
-           <div> <h2> <span className="font-semibold">Email :</span> info@gmail.com</h2> </div>
-           <div> <h2> <span className="font-semibold">Address :</span> Dhanmondi 32, Sukrabad
-Dhaka, Bangladesh</h2> </div>
+           <div> <h2> <span className="text-indigo-400 "> <FontAwesomeIcon icon={faPhoneAlt} ></FontAwesomeIcon></span> <span className="font-semibold">Phone :</span> {singlejob.phone}</h2> </div>
+           <div> <h2> <span className="text-indigo-400 "> <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon> </span> <span className="font-semibold">Email :</span> {singlejob.company_name}{singlejob.email}</h2> </div>
+           <div> <h2> <span className="text-indigo-400 "> <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> </span> <span className="font-semibold">Address :</span> {singlejob.location}</h2> </div>
            </div>
            <div>
-            <button className="btn-bg-color btn border-0">Apply Now</button>
+            <button className="btn-bg-color btn border-0" onClick={()=>handleAddJob(singlejob._id)}>Apply Now</button>
            </div>
 
 
       </div>
+            </>
+           }
+      
     </div>
     </>
   );

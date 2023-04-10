@@ -10,7 +10,7 @@ const Banner = () => {
                 <br />
                 <p className='text-lg font-medium'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
                 <br />
-                <button className='btn-bg-color btn-style'>Get Started</button>
+                <button className='btn-bg-color btn-style'><a href="#applyjobs">Get Started</a></button>
             </div>
             {/* right side */}
             <div className='m-3 md:m-0  '>

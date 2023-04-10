@@ -13,8 +13,8 @@ const FeaturedJobs = () => {
     const handleLoadMore = () => {
         setLimit(limit + 2); 
       }
-    return (
-        <div className=' my-4 text-center md:text-start p-3 leading-8'>
+    return ( <section id='applyjobs'>
+        <div className=' my-4 text-center md:text-start p-3 leading-8' >
               <div className='text-center'>
             <h2 className='text-5xl font-bold'>Featured Jobs</h2>
             <p className='text-lg mt-3'>Explore thousands of job opportunities with all the information you need. Its your future</p>
@@ -27,6 +27,7 @@ const FeaturedJobs = () => {
            {limit < jobs.length && <button className='btn-bg-color btn-style' onClick={handleLoadMore} >See All Jobs</button>}
            </div>
         </div>
+        </section>
     );
 };
 
