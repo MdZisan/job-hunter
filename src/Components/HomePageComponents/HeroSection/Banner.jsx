@@ -1,9 +1,9 @@
 import React from 'react';
-import banner from '../../../../public/Banner-bg.png'
+import banner from '../../../assets/Banner-bg.png'
 
 const Banner = () => {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 items-center w-11/12 mx-auto'>
+        <div className=' grid grid-cols-1 md:grid-cols-2 items-center w-11/12 mx-auto z-10'>
             {/* left side  */}
             <div className='w-[80%]'>
                 <h2 className='text-7xl font-semibold md:leading-[90px] '>One Step Closer To Your <span className='main-text-bg font-bold'>Dream Job</span></h2>

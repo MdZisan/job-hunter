@@ -3,7 +3,9 @@ import Banner from './HeroSection/Banner';
 import JobCategoryList from './JobCategoryList/JobCategoryList';
 import FeaturedJobs from './FeaturedJobs/FeaturedJobs';
 
+
 const Home = () => {
+  
     return (
         <div className=''>
          <div className='banner-bg '>

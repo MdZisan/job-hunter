@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className=''>
-           <div className="navbar banner-bg">
+        <div className='banner-bg '>
+           <div className="navbar">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -33,6 +33,7 @@ const Header = () => {
     <a className="btn btn-bg-color border-0">Star Applying</a>
   </div>
 </div> 
+
         </div>
     );
 };
