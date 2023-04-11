@@ -26,14 +26,14 @@ const Statistics = () => {
   return (
     <div>
       <TitleHeader>Assignment Statistics</TitleHeader>
-<div className="mt-4">
+<div className="mt-4 overflow-hidden">
   {/* display for mobile    */}
 <div className="flex md:hidden  justify-center items-center p-2">
 
     
 <AreaChart
-  width={400}
-  height={400}
+  width={350}
+  height={350}
   data={assignments}
   margin={{
     top: 10,
