@@ -50,8 +50,7 @@ const AppliedJobs = () => {
     <div>
       <TitleHeader>Applied Jobs</TitleHeader>
       <div>
-        {
-            filteredJobs.length > 0 && 
+       
             
             <div className=" my-4 border-indigo-300 border rounded-lg w-[100px] h-[40px] me-3 ms-auto">
             <div className="text-xl font-semibold text-center outline-none">
@@ -66,7 +65,7 @@ const AppliedJobs = () => {
               )}
             </div>
           </div>
-        }
+       
 
 <div>
     {

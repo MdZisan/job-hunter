@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "question": "When should you use context API?",
+      "answer": "Context Api is a data sharing component. With props we can share data like a tree. But using context api we can easily sent data in any element and as much as we want."
+    },
+    {
+      "id": 2,
+      "question": "What is a custom hook?",
+      "answer": "React has many hooks like useState, useRef, useMemo, etc, but if we want we can easily make our own hook for our particular purpose. Because of this we don’t have to repeat a logic again and again."
+    },
+    {
+      "id": 3,
+      "question": "What is useRef?",
+      "answer": "React's useRef hook delivers a mutable ref object. It enables you to access and change a DOM element's underlying attributes. This can be helpful for gaining access to and controlling items in ways that aren't available with the standard React properties and state."
+    },
+    {
+      "id": 4,
+      "question": "What is useMemo?",
+      "answer": "useMemo use to memorize expensive calculations, then when we need that thing it will provide that thing. Because of that react app will be more optimized."
+    }
+  ]
