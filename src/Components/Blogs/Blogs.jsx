@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import TitleHeader from "../Header/TitleHeader";
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState();
@@ -10,6 +11,8 @@ const Blogs = () => {
   }, []);
 //   console.log(blogs);
   return (
+    <>
+        <TitleHeader>Blogs</TitleHeader>
     <div className="p-6">
       {blogs &&
         blogs.map((blog) => (
@@ -21,6 +24,7 @@ const Blogs = () => {
           </div>
         ))}
     </div>
+    </>
   );
 };
 
