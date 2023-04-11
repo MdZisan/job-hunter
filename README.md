@@ -1,6 +1,5 @@
 #About this project
-[Live Site][1]
-[1]: https://job-hunter-mdzisan.netlify.app/ "Live Site"
+<a href="https://job-hunter-mdzisan.netlify.app/">Live Site</a>
 - Main purpose of this website is **Finding Your Dream Job** . 
 - We can Apply to the company direct with our website.
 # Features
