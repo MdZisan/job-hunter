@@ -45,7 +45,7 @@ const AppliedJobs = () => {
       if (filter !== 'all') {
         filteredJobs = job.filter(job => job.job_site === filter);
     }
-  console.log(filteredJobs);
+//   console.log(filteredJobs);
   return (
     <div>
       <TitleHeader>Applied Jobs</TitleHeader>

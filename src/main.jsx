@@ -8,11 +8,13 @@ import Statistics from "./Components/Statistics/Statistics";
 import MainLayout from "./Components/MainLayout/MainLayout";
 import DetailsAboutJobs from "./Components/HomePageComponents/FeaturedJobs/DetailsAboutJobs";
 import AppliedJobs from "./Components/AppliedJobs/AppliedJobs";
+import ErrorPage from "./Components/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",

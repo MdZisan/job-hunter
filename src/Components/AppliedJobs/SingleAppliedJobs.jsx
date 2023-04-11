@@ -37,7 +37,7 @@ const SingleAppliedJobs = ({ singlejob }) => {
                 </div>
                 <div className='flex gap-2'>
                     <p> <FontAwesomeIcon icon={faCircleDollarToSlot}></FontAwesomeIcon> </p>
-                    <p>{salary}</p>
+                    <p>Salary: {salary}</p>
                 </div>
              </div>
           </div>
