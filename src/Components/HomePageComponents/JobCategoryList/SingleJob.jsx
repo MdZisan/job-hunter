@@ -4,7 +4,7 @@ const SingleJob = ({category}) => {
   const { categoryName, img, jobsAvailable} = category;
   
     return (
-        <div className='w-[300px] h-[240] p-[40px] banner-bg rounded-lg'>
+        <div className='p-[40px] banner-bg rounded-lg'>
            <div className='bg-indigo-100 w-[60px] p-2 rounded-lg'>
            <img src={img} alt="" className='' />
            </div>

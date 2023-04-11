@@ -67,7 +67,7 @@ const AppliedJobs = () => {
           </div>
        
 
-<div>
+<div className="md:py-7 md:px-16">
     {
         filteredJobs.length===0 && <h2 className="font-bold text-center text-5xl">No Applied jobs</h2>
     }                

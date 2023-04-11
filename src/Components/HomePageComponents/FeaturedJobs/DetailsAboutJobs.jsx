@@ -32,26 +32,24 @@ const DetailsAboutJobs = () => {
   }, [id]);
 
   const handleAddJob = (id) => {
-  const item=   getShoppingCart();
-    
-    if (item[id]> 0) {
-      const myButton = document.getElementById('applyNow');
-myButton.disabled = true;
-myButton.innerText = ' Already Applied'
-toast.error('Already Applied');
+    const item = getShoppingCart();
 
-    
-    }
-    else{
-      addToDb(id)
-      toast.success('Applied');
+    if (item[id] > 0) {
+      const myButton = document.getElementById("applyNow");
+      myButton.disabled = true;
+      myButton.innerText = " Already Applied";
+      toast.error("Already Applied");
+    } else {
+      addToDb(id);
+      toast.success("Applied");
     }
   };
 
   return (
     <>
-    <Toaster />
+      <Toaster />
       <TitleHeader>Job Details</TitleHeader>
+      <div className="md:p-9">
       <div className="grid grid-cols-1 md:grid-cols-4 p-2 md:p-6 md:gap-3">
         {singlejob && (
           <>
@@ -92,9 +90,7 @@ toast.error('Already Applied');
                 </h2>
                 <hr className=" border border-slate-700" />
                 <div>
-                  
                   <h2>
-                    
                     <span className="text-indigo-400  pr-2">
                       <FontAwesomeIcon icon={faDollarSign}></FontAwesomeIcon>
                     </span>
@@ -103,11 +99,8 @@ toast.error('Already Applied');
                   </h2>
                 </div>
                 <div>
-                  
                   <h2>
-                    
                     <span className="text-indigo-400  pr-2 ">
-                      
                       <FontAwesomeIcon icon={faCalendarAlt}></FontAwesomeIcon>
                     </span>
                     <span className="font-semibold">Job Title : </span>
@@ -118,11 +111,8 @@ toast.error('Already Applied');
                 <h2 className="font-semibold">Contact Information</h2>
                 <hr className=" border border-slate-700" />
                 <div>
-                  
                   <h2>
-                    
                     <span className="text-indigo-400  pr-2 ">
-                      
                       <FontAwesomeIcon icon={faPhoneAlt}></FontAwesomeIcon>
                     </span>
                     <span className="font-semibold">Phone :</span>
@@ -130,11 +120,8 @@ toast.error('Already Applied');
                   </h2>
                 </div>
                 <div>
-                  
                   <h2>
-                    
                     <span className="text-indigo-400  pr-2 ">
-                      
                       <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
                     </span>
                     <span className="font-semibold">Email :</span>
@@ -143,14 +130,9 @@ toast.error('Already Applied');
                   </h2>
                 </div>
                 <div>
-                  
                   <h2>
-                    
                     <span className="text-indigo-400  pr-2 ">
-                      
-                      <FontAwesomeIcon
-                        icon={faLocationDot}
-                      ></FontAwesomeIcon>
+                      <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon>
                     </span>
                     <span className="font-semibold">Address :</span>
                     {singlejob.location}
@@ -169,6 +151,7 @@ toast.error('Already Applied');
             </div>
           </>
         )}
+      </div>
       </div>
     </>
   );

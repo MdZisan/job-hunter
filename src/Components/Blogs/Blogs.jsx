@@ -13,7 +13,7 @@ const Blogs = () => {
   return (
     <>
         <TitleHeader>Blogs</TitleHeader>
-    <div className="p-6">
+    <div className="p-6 md:px-16">
       {blogs &&
         blogs.map((blog) => (
           <div key={blog.id}>
