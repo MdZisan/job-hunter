@@ -7,6 +7,7 @@ import Home from "./Components/HomePageComponents/Home";
 import Statistics from "./Components/Statistics/Statistics";
 import MainLayout from "./Components/MainLayout/MainLayout";
 import DetailsAboutJobs from "./Components/HomePageComponents/FeaturedJobs/DetailsAboutJobs";
+import AppliedJobs from "./Components/AppliedJobs/AppliedJobs";
 
 const router = createBrowserRouter([
   {
@@ -28,7 +29,7 @@ const router = createBrowserRouter([
       },
       {
         path: "appliedJobs",
-        element: <h2>appliedJobs</h2>,
+        element: <AppliedJobs></AppliedJobs>,
       },
       {
         path: "Blog",
