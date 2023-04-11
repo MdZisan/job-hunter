@@ -10,6 +10,7 @@ import DetailsAboutJobs from "./Components/HomePageComponents/FeaturedJobs/Detai
 import AppliedJobs from "./Components/AppliedJobs/AppliedJobs";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
 import Blogs from "./Components/Blogs/Blogs";
+import Footer from "./Components/Footer/Footer";
 
 const router = createBrowserRouter([
   {
@@ -39,7 +40,8 @@ const router = createBrowserRouter([
         element: <Blogs/>
       }
     ],
-  },
+   
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
