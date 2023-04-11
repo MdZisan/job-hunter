@@ -10,6 +10,7 @@ import {
   faPhoneAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import { addToDb, getShoppingCart } from "../../../utilities/fakedb";
+import { Toaster, toast } from "react-hot-toast";
 
 const DetailsAboutJobs = () => {
   const { jobId } = useParams();
@@ -37,17 +38,19 @@ const DetailsAboutJobs = () => {
       const myButton = document.getElementById('applyNow');
 myButton.disabled = true;
 myButton.innerText = ' Already Applied'
-console.log();
+toast.error('Already Applied');
 
     
     }
     else{
       addToDb(id)
+      toast.success('Applied');
     }
   };
 
   return (
     <>
+    <Toaster />
       <TitleHeader>Job Details</TitleHeader>
       <div className="grid grid-cols-1 md:grid-cols-4 p-2 md:p-6 md:gap-3">
         {singlejob && (
