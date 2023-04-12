@@ -95,7 +95,7 @@ const DetailsAboutJobs = () => {
                       <FontAwesomeIcon icon={faDollarSign}></FontAwesomeIcon>
                     </span>
                     <span className="font-semibold">Salary :</span>
-                    {singlejob.salary} (Per month)
+                    ${singlejob.salary} (Per month)
                   </h2>
                 </div>
                 <div>
@@ -125,7 +125,7 @@ const DetailsAboutJobs = () => {
                       <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
                     </span>
                     <span className="font-semibold">Email :</span>
-                    {singlejob.company_name}
+                    
                     {singlejob.email}
                   </h2>
                 </div>

@@ -6,7 +6,7 @@
     "job_title": "Technical Database Engineer",
     "company_name": "Google LLC",
     "job_site": "Remote",
-    "location": "Dhaka,Bangladesh",
+    "location": "Rajshahi,Bangladesh",
     "job_type": "Full-time",
     "salary": "100k-120k",
     "job_description": "We are seeking a talented Technical Database Engineer to join our team. The successful candidate will be responsible for designing, implementing, and maintaining large-scale databases for our organization. They will work closely with other members of the development team to ensure that the database infrastructure meets the needs of the organization. The ideal candidate will have a strong background in database engineering, data modeling, and database administration. They should also have experience working with large data sets and be able to optimize database performance to ensure smooth and efficient operations.",
@@ -15,7 +15,7 @@
     "experiences": "2-3 Years in this field.",
     
     "phone": "017000000",
-    "email": "info@email.com"
+    "email": "google@email.com"
   },
   {
     "_id": "64332e9a61a746532f0b3e8a",
@@ -24,7 +24,7 @@
     "job_title": "Senior Product Designer",
     "company_name": "Netflix",
     "job_site": "OnSite",
-    "location": "Dhaka,Bangladesh",
+    "location": "Uttora,Dhaka,Bangladesh",
     "job_type": "Full-time",
     "salary": "80k-100k",
     "job_description": "We are looking for a creative and talented Senior Product Designer to join our team. The ideal candidate will be responsible for designing intuitive, user-friendly, and visually appealing products that meet the needs of our customers. The candidate will work closely with cross-functional teams to develop design concepts and iterate on design solutions.",
@@ -32,8 +32,8 @@
     "education_requirements": " Bachelor degree to complete any reputational university.",
     "experiences": "2-3 Years in this field.",
     
-    "phone": "017000000",
-    "email": "info@email.com"
+    "phone": "017540000",
+    "email": "netflix@email.com"
   },
   {
     "_id": "64332e9aa4b67550d2f9bc0c",
@@ -42,7 +42,7 @@
     "job_title": "Software Engineer",
     "company_name": "Tesla",
     "job_site": "Remote",
-    "location": "Dhaka,Bangladesh",
+    "location": "Mirpur-1,Dhaka,Bangladesh",
     "job_type": "Full-time",
     "salary": "100k-150k",
     "job_description": "We are seeking a talented and experienced Software Engineer to join our team. The ideal candidate will be responsible for developing high-quality software solutions that meet the needs of our customers. The candidate will work closely with other members of the development team to design, develop, and deploy software applications.",
@@ -51,7 +51,7 @@
     "experiences": "2-3 Years in this field.",
     
     "phone": "017000000",
-    "email": "info@email.com"
+    "email": "tesla@email.com"
   },
   {
     "_id": "64332e9a563f5692764543d7",
@@ -60,7 +60,7 @@
     "job_title": "Sr. Technical Database Engineer",
     "company_name": "Google LLC",
     "job_site": "OnSite",
-    "location": "Dhaka,Bangladesh",
+    "location": "Panjab,India",
     "job_type": "Full-time",
     "salary": "150k-200k",
     "job_description": "We are seeking a highly skilled and experienced Sr. Technical Database Engineer to join our team. The ideal candidate will be responsible for the design, implementation, maintenance, and administration of large-scale databases. The candidate will be expected to work closely with other members of the development team to ensure that our database infrastructure meets the needs of our rapidly growing organization.",
@@ -68,8 +68,8 @@
     "education_requirements": " Bachelor degree to complete any reputational university.",
     "experiences": "2-3 Years in this field.",
     
-    "phone": "017000000",
-    "email": "info@email.com"
+    "phone": "91000000",
+    "email": "google@email.com"
   },
   {
     "_id": "64332e9af0debac25edbdec9",
@@ -87,7 +87,7 @@
     "experiences": "2-3 Years in this field.",
     
     "phone": "017000000",
-    "email": "info@email.com"
+    "email": "airbnb@email.com"
   },
   {
     "_id": "64332e9a54f5465120f61f75",
@@ -96,7 +96,7 @@
     "job_title": "Senior Product Designer",
     "company_name": "Netflix",
     "job_site": "OnSite",
-    "location": "Dhaka,Bangladesh",
+    "location": "Banani,Dhaka,Bangladesh",
     "job_type": "Full-time",
     "salary": "100k-120k",
     "job_description": "We are looking for a creative and talented Senior Product Designer to join our team. The ideal candidate will be responsible for designing intuitive, user-friendly, and visually appealing products that meet the needs of our customers. The candidate will work closely with cross-functional teams to develop design concepts and iterate on design solutions.",
@@ -105,6 +105,6 @@
     "experiences": "2-3 Years in this field.",
 
     "phone": "017000000",
-    "email": "info@email.com"
+    "email": "netflix@email.com"
   }
 ]

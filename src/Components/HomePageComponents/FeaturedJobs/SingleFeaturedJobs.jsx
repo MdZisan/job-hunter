@@ -25,7 +25,7 @@ const SingleFeaturedJobs = ({job}) => {
                 </div>
                 <div className='flex gap-2'>
                     <p> <FontAwesomeIcon icon={faCircleDollarToSlot}></FontAwesomeIcon> </p>
-                    <p>Salary: {salary}</p>
+                    <p>Salary: ${salary}</p>
                 </div>
              </div>
            <div className='mt-3'>
